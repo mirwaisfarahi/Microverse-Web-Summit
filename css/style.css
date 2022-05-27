@@ -668,6 +668,11 @@
     margin: 0 2%;
   }
 
+  #all-speakers {
+    display: flex;
+    flex-direction: column;
+  }
+
   .speakers {
     flex-direction: column;
   }
