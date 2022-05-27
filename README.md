@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-- [Portfolio App Live Demo](https://mirwaisfarahi.github.io/Microverse-Web-Summit)
+- [App Live Demo](https://mirwaisfarahi.github.io/Microverse-Web-Summit)
 
 ## Getting Started
 
