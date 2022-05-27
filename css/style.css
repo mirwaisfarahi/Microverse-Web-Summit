@@ -214,7 +214,7 @@
 .program > img {
   max-width: 100%;
   object-fit: contain;
-  margin: 0 30%;
+  margin: 0 35%;
 }
 
 .program > h4 {
@@ -344,7 +344,7 @@
   align-items: center;
   background-color: #414246;
   color: #fbfefb;
-  height: 25vh;
+  height: 30vh;
 }
 
 #sponsors-section > h3 {
@@ -362,9 +362,9 @@
 }
 
 .sponsor > img {
-  width: 150px;
+  width: 160px;
   max-width: 100%;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 /* Footer Section */
@@ -392,7 +392,7 @@
   background-color: #f7f7f7;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 70vh;
   width: 100%;
 }
 
@@ -447,7 +447,7 @@
 }
 
 #logo-image {
-  width: 20%;
+  width: 30%;
   border: 1px solid #d3d3d3;
   padding: 0 30px;
 }
@@ -555,7 +555,7 @@
   }
 
   .button > a {
-    color: #272a31;
+    color: #fbfefb;
   }
 
   .nav-item > a:hover {
@@ -626,7 +626,7 @@
   }
 
   .program > img {
-    margin: 0;
+    margin: 0 1%;
     width: 20%;
   }
 
