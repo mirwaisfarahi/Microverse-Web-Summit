@@ -1,13 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="//fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link href="//fonts.cdnfonts.com/css/lato" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Web Summit Event</title>
+    <link rel="stylesheet" href="css/desktop-style.css">
+    <title>Web Summit</title>
 </head>
+
 <body>
-    
+    <!--Header Section-->
+    <header id="header">
+        <ul id="header-list">
+            <li class="header-item icon"><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li class="header-item icon"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="header-item"><a href="">English</a></li>
+            <li class="header-item"><a href="">My Page</a></li>
+            <li class="header-item"><a href="">Logout</a></li>
+        </ul>
+    </header>
+
+    <!--Navbar Section-->
+    <nav id="navbar">
+        <a class="logo" href="index.html"><img src="images/logo.png" alt="Web Submmit"></a>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item link"><a href="#main-programs">Program</a></li>
+            <li class="nav-item link"><a href="#speakers-section">Speakers</a></li>
+            <li class="nav-item link"><a href="#sponsors-section">Sponsors</a></li>
+            <li class="nav-item button link"><a href="">WS Campaign</a></li>
+            <li id="close-times"><a id="close" href=""><i class="fa fa-times"></i></a></li>
+        </ul>
+
+        <div id="mobile-menue">
+            <i id="bar" class="fa fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Main Section-->
+    <main id="main">
+
+        <!-- Headline Section -->
+        <section id="headline">
+            <h3>"Hello Web Lovers!"</h3>
+            <h1>Web Technology <br> Global Submmit <br> 2022</h1>
+            <p id="details">Web Summit 2022 will bring together 70,000+ people, and the companies redefining the tech
+                industry.
+                Incredible speakers, unparalleled networking opportunities, and proprietary software that will maximise
+                your experience.
+            </p>
+            <h2 id="time">12.05.2022(THU) ~ 14(SAT)</h2>
+            <p id="place">@ Boston Convention and Exhibition Center Boston, MA</p>
+        </section>
+
+        <!-- Program Section -->
+        <section id="main-programs">
+            <h3>Main Program</h3>
+            <div class="section-underline"></div>
+            <div id="programs">
+                <div class="program">
+                    <img src="images/lecture.png" alt="Lecture">
+                    <h4>Lecture</h4>
+                    <p>Listen to speakers from various countries and from different backgrounds talk about their latest
+                        experiences and creations.</p>
+                </div>
+
+                <div class="program">
+                    <img src="images/stage.png" alt="Lecture">
+                    <h4>WS Exhibition</h4>
+                    <p>Appreciate various creations inluding new web Technologies.</p>
+                </div>
+
+                <div class="program">
+                    <img src="images/forum.png" alt="Lecture">
+                    <h4>Forum</h4>
+                    <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+                </div>
+
+                <div class="program">
+                    <img src="images/workshop.png" alt="Lecture">
+                    <h4>Workshop</h4>
+                    <p>Get a chance to test new web apps and experience web designing in our workshops.</p>
+                </div>
+
+                <div class="program">
+                    <img src="images/ignite.png" alt="Lecture">
+                    <h4>GC Ignite</h4>
+                    <p>Get opportunities to network with the experts of the industry and to meet fellow developers from all
+                        around the world.</p>
+                </div>
+            </div>
+            <a id="program-list" href="#">SEE THE WHOLE PROGRAM</a>
+            <a id="program-join" href="#">Join WS 2022</a>
+        </section>
+
+        <section id="sponsors-section">
+            <h3>Sponsors</h3>
+            <div class="section-underline"></div>
+            <div id="sponsors">
+                <div class="sponsor">
+                    <img src="images/ps-logo.png" alt="Play Station Logo">
+                </div>
+                <div class="sponsor">
+                    <img src="images/riot-logo.png" alt="Riot Logo">
+                </div>
+                <div class="sponsor">
+                    <img src="images/sony-logo.png" alt="Sony Logo">
+                </div>
+                <div class="sponsor">
+                    <img src="images/xbox-logo.png" alt="Xbox Logo">
+                </div>
+                <div class="sponsor">
+                    <img src="images/nintendo-logo.png" alt="Nintendo Logo">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer"> 
+        <img id="footer-image" src="images/logo.png" alt="Logo">
+        <div>
+            <p>2022 Web Summit. Boston, MA.</p>
+            <p>Some Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/mobile-speaker-section.js"></script>
 </body>
+
 </html>
