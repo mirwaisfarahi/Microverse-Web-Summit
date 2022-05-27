@@ -18,6 +18,9 @@
 
 - [App Live Demo](https://mirwaisfarahi.github.io/Microverse-Web-Summit)
 
+## Project Description
+- [Video](https://www.loom.com/share/1de5178747db41a8a3fa9d9a13ed6a41)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
