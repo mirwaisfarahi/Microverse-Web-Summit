@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="//fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link href="//fonts.cdnfonts.com/css/lato" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css">
     <title>About Web Summit</title>
 </head>
+
 <body>
-    
+    <!--Header Section-->
+    <header id="header">
+        <ul id="header-list">
+            <li class="header-item icon"><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li class="header-item icon"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="header-item"><a href="">English</a></li>
+            <li class="header-item"><a href="">My Page</a></li>
+            <li class="header-item"><a href="">Logout</a></li>
+        </ul>
+    </header>
+
+    <!--Navbar Section-->
+    <nav id="navbar">
+        <a class="logo" href="index.html"><img src="images/logo.png" alt="Web Submmit"></a>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item link"><a href="#main-programs">Program</a></li>
+            <li class="nav-item link"><a href="#speakers-section">Speakers</a></li>
+            <li class="nav-item link"><a href="#sponsors-section">Sponsors</a></li>
+            <li class="nav-item button link"><a href="">GC Campaign</a></li>
+            <li id="close-times"><a id="close" href=""><i class="fa fa-times"></i></a></li>
+        </ul>
+
+        <div id="mobile-menue">
+            <i id="bar" class="fa fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Main Section-->
+    <main>
+
+        <!-- Headline Section -->
+        <section id="about-headline">
+            <h1>GAMING CONVENTION <br> 2022 IS HERE!</h1>
+            <p id="about-details">The Gaming Convention brings together the community of gamers, creators, streamers,
+                game designers and many more from all over the world every two years.
+                Gaming Convention are a gathering centered on role-playing games, collectible card games, miniatures
+                wargames, board games, video games, or other types of games.
+                These conventions are typically two or three days long, and often held at either a university or in a
+                convention center hotel.
+                Gaming conventions typically have games scheduled for various time slots. Most gaming cons use some
+                system of pre-registration to ensure that games are neither over-full nor under-full.
+            </p>
+            <h2 id="contact">Please contact as by e-mail if you have any other questions about the event</h2>
+            <p id="email">contact@gamingconvention.com</p>
+        </section>
+
+        <!-- Program Section -->
+        <section id="logo-details">
+            <h3>Gaming Convention 2022 logo</h3>
+            <p id="logo-info">The logo of GC (Gaming Convention) was created by Manel Hammouche on April, 2022 using "logopit" (a mobile application)
+            </p>
+            <img id="logo-image" src="images/logo.png" alt="">
+        </section>
+        
+        <div id="underline"></div>
+
+        <!-- Conventions Section -->
+        <section id="convecation">
+            <h3>See the past Gaming Conventions</h3>
+            <p id="convecation-info">Take a look at the last two Gaming Conventions which took place in Tokyo and NewYork
+            </p>
+            <div id="prev-coventions">
+                <div class="prev-covention">
+                    <img class="convecation-image" src="images/prev-conference1.jpg" alt="">
+                    <div class="centered">
+                        <h4>2019</h4>
+                        <p>GC 2019 in New York</p>    
+                    </div>
+                </div>
+                <div class="prev-covention">
+                    <img class="convecation-image" src="images/prev-conference2.jpg" alt="">
+                    <div class="centered">
+                        <h4>2020</h4>
+                        <p>GC 2020 in Tokyo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section id="sponsors-section">
+            <h3>Sponsors</h3>
+            <div id="sponsors">
+                <div class="sponsor">
+                    <img src="images/ps-logo.png" alt="Play Station">
+                </div>
+                <div class="sponsor">
+                    <img src="images/riot-logo.png" alt="Riot Logo">
+                </div>
+                <div class="sponsor">
+                    <img src="images/ps-logo.png" alt="Play Station">
+                </div>
+                <div class="sponsor">
+                    <img src="images/ps-logo.png" alt="Play Station">
+                </div>
+                <div class="sponsor">
+                    <img src="images/ps-logo.png" alt="Play Station">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer about-footer">
+        <img id="footer-image" src="images/logo.png" alt="Logo">
+        <div>
+            <p>2022 Gaming Convention. Boston, MA.</p>
+            <p>Some Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/mobile-speaker-section.js"></script>
 </body>
+
 </html>
